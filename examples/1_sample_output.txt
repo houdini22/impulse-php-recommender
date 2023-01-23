@@ -1,0 +1,78 @@
+Starting train with 20000 steps.
+Step 0 with error 45.520427445661
+Step 1000 with error 0.0013710786974094
+Step 2000 with error 0.00013110575268153
+Step 3000 with error 1.2156376909335E-5
+Step 4000 with error 1.1684706677808E-6
+Step 5000 with error 1.1431275115796E-7
+Step 6000 with error 1.1247949830638E-8
+Step 7000 with error 1.1085711213303E-9
+Step 8000 with error 1.0930621148521E-10
+Step 9000 with error 1.0778946529143E-11
+Step 10000 with error 1.0629698108694E-12
+Step 11000 with error 1.0482599829272E-13
+Step 12000 with error 1.0337559211885E-14
+Step 13000 with error 1.0194531226214E-15
+Step 14000 with error 1.0053483810328E-16
+Step 15000 with error 9.9143896631547E-18
+Step 16000 with error 9.7772203362022E-19
+Step 17000 with error 9.6419473707646E-20
+Step 18000 with error 9.508706540631E-21
+Step 19000 with error 9.37769906248E-22
+Training ended with error 9.2711430581771E-23 after 20000 steps.
+Prediction for 'Guardians of the Galaxy' for user 'Barbara': 2.6278090814458E-11
+Prediction for 'Guardians of the Galaxy' for user 'Charlie': 4.9999999999948
+Prediction for 'Logan' for user 'Anna': 2.7090774068483E-11
+Prediction for 'Logan' for user 'Dave': 3.9999999999937
+Prediction for 'Logan' for user with has not rated any movie: 2
+Related movies dump:
+array(4) {
+  [0]=>
+  array(2) {
+    ["similarity"]=>
+    float(1.5805134978564E-11)
+    ["model"]=>
+    array(2) {
+      ["_id"]=>
+      string(23) "Guardians of the Galaxy"
+      ["data"]=>
+      NULL
+    }
+  }
+  [1]=>
+  array(2) {
+    ["similarity"]=>
+    float(0.25999320199432)
+    ["model"]=>
+    array(2) {
+      ["_id"]=>
+      string(5) "Logan"
+      ["data"]=>
+      NULL
+    }
+  }
+  [2]=>
+  array(2) {
+    ["similarity"]=>
+    float(2.5999320200207)
+    ["model"]=>
+    array(2) {
+      ["_id"]=>
+      string(7) "The Kid"
+      ["data"]=>
+      NULL
+    }
+  }
+  [3]=>
+  array(2) {
+    ["similarity"]=>
+    float(2.8413694265172)
+    ["model"]=>
+    array(2) {
+      ["_id"]=>
+      string(12) "Forrest Gump"
+      ["data"]=>
+      NULL
+    }
+  }
+}
